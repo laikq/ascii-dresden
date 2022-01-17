@@ -34,7 +34,7 @@ Files with `layout: page` will be automagically added to the sidebar. The link t
 
 ### Add an image
 
-Put the image into for example `public/images/my-image.png`. Then add a link to the post like this: `[Bild-Tooltip]({{ 'public/images/my-image.png' | relative_url }})`.
+Put the image into for example `public/images/my-image.png`. Then add a link to the post like this: `![Bild-Tooltip]({{ 'public/images/my-image.png' | relative_url }})`.
 
 ## See also
 
