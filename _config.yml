@@ -2,8 +2,8 @@
 title:            café ascii
 tagline:          'Studentisches Café im Informatikbau'
 description:      'Das Studicafé in der Informatikfakultät'
-url:              http://ascii-dresden.de
-baseurl:          /
+url:              https://laikq.github.io
+baseurl:          /ascii-dresden/
 
 # Permalinks
 permalink:        pretty
