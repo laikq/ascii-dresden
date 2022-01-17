@@ -18,11 +18,15 @@ plugins:
 exclude:
   - .editorconfig
   - .git
+  - .envrc
   - .jekyll-cache
   - Gemfile
   - Gemfile.lock
   - LICENSE.md
   - README.md
+  - flake.nix
+  - flake.lock
+  - shell.nix
 
 author:
   name:           'John Doe'
