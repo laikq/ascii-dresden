@@ -1,20 +1,31 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# Setup
+title:            café ascii
+tagline:          'Studentisches Café im Informatikbau'
+description:      'Das Studicafé in der Informatikfakultät'
+url:              http://ascii-dresden.de
+baseurl:          /
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
-# Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
 
 author:
-  name:           'Mark Otto'
+  name:           'John Doe'
   url:            https://twitter.com/mdo
 
 paginate:         5
