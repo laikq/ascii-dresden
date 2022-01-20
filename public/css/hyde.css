@@ -98,6 +98,11 @@ a.sidebar-nav-item:focus {
 .sidebar-nav-item.active {
   font-weight: bold;
 }
+/* Smaller items in the sidebar can be grouped together in a nav-block
+ * I'm not a css expert, feel free to correct me! */
+.sidebar-nav-block {
+  display: block;
+}
 
 /* Sticky sidebar
  *

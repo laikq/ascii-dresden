@@ -25,8 +25,16 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-    </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+      {% comment %}
+        Rechtlich notwendige, aber für viele Nutzer*innen weniger relevante Seiten
+        wie das Impressum und Datenschutzerklärung
+        kommen hierhin (auf eine Zeile)
+      {% endcomment %}
+      <div class="sidebar-nav-block">
+        <a class="sidebar-nav-item{% if page.url == {{ 'impressum' | relative_url }} %} active{% endif %}" style="display: inline;" href="{{ 'impressum' | relative_url }}">Impressum</a> &amp;
+        <a class="sidebar-nav-item{% if page.url == {{ 'datenschutz' | relative_url }} %} active{% endif %}" style="display: inline;" href="{{ 'datenschutz' | relative_url }}">Datenschutz</a>
+      </div>
+    </nav>
   </div>
 </div>
